@@ -1,0 +1,16 @@
+# Core scientific stack
+numpy>=1.24
+pandas>=2.1
+pyarrow>=15
+scikit-learn>=1.4
+scipy>=1.11
+tqdm>=4.65
+
+# Modeling
+torch>=2.1
+transformers>=4.44,<5
+accelerate>=0.33,<2
+pyvi>=0.1        # Vietnamese word segmentation, required for PhoBERT-family encoders
+
+# Optional, only used by scripts/01_tokenize_cache.py for RAM-aware worker sizing
+psutil>=5.9

@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "Semantic Path-HMLC: Frozen Label Semantics and Taxonomy Graph Fusion for Single-Path Hierarchical Text Classification"
+authors:
+  - family-names: "Chau"
+    given-names: "Bao Nhan"
+    affiliation: "Ton Duc Thang University"
+    orcid: "https://orcid.org/0009-0009-5027-314X"
+  - family-names: "Tran"
+    given-names: "Phuoc"
+    affiliation: "Ton Duc Thang University"
+    orcid: "https://orcid.org/0000-0003-0793-9590"
+# TODO once accepted: fill in preferred-citation with journal/volume/pages/doi/year.
+preferred-citation:
+  type: article
+  title: "Semantic Path-HMLC: Frozen Label Semantics and Taxonomy Graph Fusion for Single-Path Hierarchical Text Classification"
+  authors:
+    - family-names: "Chau"
+      given-names: "Bao Nhan"
+    - family-names: "Tran"
+      given-names: "Phuoc"
+  journal: ""   # TODO
+  year: 2026    # TODO: update to the acceptance/publication year
+  doi: ""       # TODO

@@ -1,0 +1,29 @@
+# Dataset and any local copy of it -- never commit the underlying corpus.
+data/
+*.parquet
+
+# Token caches, model checkpoints, predictions, and every other run artifact.
+token_cache/
+outputs/
+local_runs/
+*.pt
+*.npz
+results_bundle*.zip
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
